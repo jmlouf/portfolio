@@ -4,7 +4,6 @@ import './index.css';
 import App from './App.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
-import HomePage from './pages/HomePage.jsx';
 import ProjectPage from './pages/ProjectPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import ResumePage from './pages/ResumePage.jsx';
@@ -18,13 +17,8 @@ const router = createBrowserRouter([
     
     children: [
       {
-        path: '/about',
         index: true,
         element: <AboutPage />,
-      },
-      {
-        path: '/',
-        element: <HomePage />,
       },
       {
         path: '/projects',
