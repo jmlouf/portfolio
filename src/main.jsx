@@ -4,8 +4,10 @@ import './index.css';
 import App from './App.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
-import ProjectsPage from './pages/ProjectsPage.jsx';
+import ProjectPage from './pages/ProjectPage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import ResumePage from './pages/ResumePage.jsx';
 
 // Define accessible routes with corresponding components and routes.
 const router = createBrowserRouter([
@@ -13,18 +15,27 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
+    
     children: [
       {
         index: true,
+        element: <AboutPage />,
+      },
+      {
+        path: '/',
         element: <HomePage />,
       },
       {
-        path: 'projects/:id',
-        element: <ProjectsPage />,
+        path: 'projects',
+        element: <ProjectPage />,
       },
       {
-        path: 'about',
-        element: <AboutPage />,
+        path: 'contact',
+        element: <ContactPage />,
+      },
+      {
+        path: 'resume',
+        element: <ResumePage />,
       },
     ],
   },
