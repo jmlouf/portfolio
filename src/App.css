@@ -27,16 +27,34 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-picture {
+  width: 300px; 
+  margin-right: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+  
+  .about-picture {
+    width: 100%;
+    margin: 0 0 20px 0;
+  } 
 }
