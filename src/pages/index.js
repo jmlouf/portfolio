@@ -1,5 +1,5 @@
 export { About } from "./About";
 export { Error } from "./Error";
-export { Project } from "./Project";
+export { Projects } from "./Projects";
 export { Contact } from "./Contact";
 export { Resume } from "./Resume";
