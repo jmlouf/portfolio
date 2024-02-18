@@ -1,15 +1,15 @@
-import './App.css';
 import { Outlet } from 'react-router-dom';
+import './App.css';
 import { Header } from './components/Header/index';
 
 function App() {
-  return (
-    <>
-      <Header />
-      {/* Conditionally render pages according to URL. */}
-      <Outlet />
-    </>
-  );
+  return (<>
+    <Header />
+
+    <Outlet />
+
+    {/* Footer */}
+  </>);
 }
 
 export default App;
