@@ -18,7 +18,10 @@ export function ProjectGrid() {
     return (
         <section className='card-container'>
             {projects.map(project => (
-                <ProjectCard key={project.name} {...project} />
+                <ProjectCard
+                    key={project.name.toLowerCase().trim()}
+                    {...project}
+                />
             ))}
         </section>
     )
