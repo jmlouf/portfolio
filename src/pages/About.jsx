@@ -1,4 +1,4 @@
-export default function AboutPage() {
+export function About() {
     return (
         <div className="about-container">
             <img 

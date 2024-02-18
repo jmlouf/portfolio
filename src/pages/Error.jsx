@@ -1,6 +1,6 @@
 import { useRouteError } from 'react-router-dom';
 
-export default function ErrorPage() {
+export function Error() {
     // Hook returns error object if rendered unsuccessfully.
     const error = useRouteError();
     console.error(error);

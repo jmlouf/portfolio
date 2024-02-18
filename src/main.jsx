@@ -1,36 +1,35 @@
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css';
 import App from './App.jsx';
-import ErrorPage from './pages/ErrorPage.jsx';
-import AboutPage from './pages/AboutPage.jsx';
-import ProjectPage from './pages/ProjectPage.jsx';
-import ContactPage from './pages/ContactPage.jsx';
-import ResumePage from './pages/ResumePage.jsx';
+import './index.css';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
+import { About, Error, Project, Contact, Resume } from './pages';
 
 // Define accessible routes with corresponding components and routes.
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />,
-    
+    errorElement: <Error />,
     children: [
       {
-        index: true,
-        element: <AboutPage />,
+        path: '/',
+        element: <Navigate replace to='/about' />,
       },
       {
-        path: '/projects',
-        element: <ProjectPage />,
+        path: 'about',
+        element: <About />,
       },
       {
-        path: '/contact',
-        element: <ContactPage />,
+        path: 'projects',
+        element: <Project />,
       },
       {
-        path: '/resume',
-        element: <ResumePage />,
+        path: 'contact',
+        element: <Contact />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
       },
     ],
   },
