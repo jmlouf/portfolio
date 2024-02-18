@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { NavLink } from "react-router-dom";
-import { BsList } from "react-icons/bs";
+import { BsList } from 'react-icons/bs';
+import { NavItem } from '../NavItem/NavItem';
 import './NavBar.css';
 
 export function NavBar() {
@@ -23,15 +23,13 @@ export function NavBar() {
 
       {/* Ternary (string) over conditional (Boolean). */}
       <ul className={isOpen ? 'open' : ''}>
-        {links.map((link, index) => {
-          return (
-            <li key={index}>
-              {/* NavLink allows for active selection. */}
-              <NavLink to={link.toLowerCase()}>{link}</NavLink>
-            </li>
-          )
-        })}
+        {links.map((link) => (
+          <NavItem
+            key={link.toLowerCase().trim()}
+            link={link}
+          />
+        ))}
       </ul>
     </nav>
-  );
+  )
 }
