@@ -4,3 +4,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --color-primary: #21242C;
+  --color-secondary: #CCCCCC;
+  --color-accent: #35ABA4;
+}

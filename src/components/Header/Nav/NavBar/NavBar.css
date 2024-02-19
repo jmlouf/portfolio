@@ -1,7 +1,27 @@
 /* Highlights active navlink. */
 .active {
-    color: white;
-    background-color: darkorange;
+    color: #cbe4d8;
+    background-color: #094d3a;
+}
+
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon-container {
+    background: #cbe4d8;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -16,7 +36,7 @@ nav {
 }
 
 nav .logo {
-    color: darkorange;
+    color: #094d3a;
     font-size: 2rem;
     margin: 0.8rem 1.2rem;
     font-weight: bold;
@@ -27,7 +47,7 @@ nav .menu {
     /* Only visible with media query. */
     display: none;
     position: absolute;
-    top: 2.2rem;
+    top: 1.85rem;
     right: 2rem;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +69,7 @@ nav ul li a {
     /* For height and width of item. */
     display: block;
     text-decoration: none;
-    color: darkorange;
+    color: #094d3a;
     padding: 0.5rem;
     /* Spaced out horizontally. */
     margin: 2rem;
@@ -59,8 +79,8 @@ nav ul li a {
 
 /* "not" pseudo-selector applies if element does not have ".active" class. */
 nav ul li a:not(.active):hover {
-    color: white;
-    background-color: darkorange;
+    color: #cbe4d8;
+    background-color: #094d3a;
 }
 
 /* Remove default button style for menu. */
@@ -84,6 +104,7 @@ button {
         /* Pushes links below logo and menu. */
         flex-direction: column;
         align-items: start;
+        background: #87cf94;
     }
 
     nav ul {
