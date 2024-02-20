@@ -1,16 +1,9 @@
-export function About() {
-    return (
-        <div className="about-container">
-            <img 
-                src="profile.jpg" 
-                className="about-picture"
-            />
+import { AboutMe } from "../components/About/AboutMe.jsx";
 
-            <div className="about-content">
-                <h2>About Me</h2>
-                <p>Hello! I enjoy creating web apps...</p> 
-                <p>My skills are...</p>
-            </div>
-        </div>
-    );
+export function About() {
+  return (
+    <section className="about-container">
+      <AboutMe />
+    </section>
+  );
 }
