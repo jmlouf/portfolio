@@ -1,0 +1,25 @@
+.nav--footer {
+    display: flex;
+    background: black;
+    position: relative;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #bdbdbd;
+
+    .logo {
+        font-size: 3rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    ul li {
+        display: flex;
+        position: relative;
+        margin-right: 1.6rem;
+    }
+
+    .copyright {
+        font-size: 1.6rem;
+    }
+}
