@@ -1,7 +1,9 @@
+import { ResumeDownload } from "../components/Resume/ResumeDownload/ResumeDownload.jsx";
+
 export function Resume() {
   return (
-    <div className="container pt-4">
-      <p>Resume</p>
-    </div>
+    <section>
+      <ResumeDownload />
+    </section>
   );
 }
