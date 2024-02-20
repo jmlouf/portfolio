@@ -1,0 +1,46 @@
+form {
+    position: relative;
+    justify-content: center;
+    padding: 2rem;
+}
+
+label {
+    display: block;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type='text'],
+input[type='email'],
+textarea[type='text'] {
+    font-family: Inter;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem 0.7rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+textarea[type='text']:focus {
+    border-color: #7db0fb;
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+
+button {
+    font-size: 1.6rem;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    margin: 0 3rem;
+    outline: 0;
+}
+
+.form-group {
+    margin: 3rem;
+}
