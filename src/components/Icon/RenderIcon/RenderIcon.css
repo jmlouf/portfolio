@@ -1,0 +1,10 @@
+/* Icons & Scrollbar */
+.icon {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+
+    /* Avoids content shift with scrollbar. */
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}

@@ -1,7 +1,9 @@
-import { NavBar } from './Nav/NavBar/NavBar';
+import { HeaderNav } from "../Nav/HeaderNav/HeaderNav";
 
 export function Header() {
   return (
-    <NavBar />
-  ); 
+    <header>
+      <HeaderNav />
+    </header>
+  );
 }

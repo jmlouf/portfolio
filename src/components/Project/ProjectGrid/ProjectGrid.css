@@ -1,11 +1,9 @@
 /* Card Container */
 .card-container {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-
-    align-content: baseline;
     flex-wrap: wrap;
-
-    padding: 1rem;
+    justify-content: center;
+    gap: 5rem;
+    
+    padding: 3rem;
 }

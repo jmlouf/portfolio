@@ -1,42 +1,63 @@
 <svg width="0" height="0" class="hidden">
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-right">
-    <path d="M4 12L20 12L14.0001 18M17 9L14 6" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-right">
+    <path d="M4 12L20 12L14.0001 18M17 9L14 6" stroke="white" stroke-width="1.5" stroke-linecap="round"
       stroke-linejoin="round"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chevron-circle-down">
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chevron-circle-down">
     <path
       d="M9.5 12.5L7 10M17 10L12 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-      stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="attachment">
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="attachment">
     <path
       d="M20 10.9696L11.9628 18.5497C10.9782 19.4783 9.64274 20 8.25028 20C6.85782 20 5.52239 19.4783 4.53777 18.5497C3.55315 17.6211 3 16.3616 3 15.0483C3 13.7351 3.55315 12.4756 4.53777 11.547M14.429 6.88674L7.00403 13.8812C6.67583 14.1907 6.49144 14.6106 6.49144 15.0483C6.49144 15.4861 6.67583 15.9059 7.00403 16.2154C7.33224 16.525 7.77738 16.6989 8.24154 16.6989C8.70569 16.6989 9.15083 16.525 9.47904 16.2154L13.502 12.4254M8.55638 7.75692L12.575 3.96687C13.2314 3.34779 14.1217 3 15.05 3C15.9783 3 16.8686 3.34779 17.525 3.96687C18.1814 4.58595 18.5502 5.4256 18.5502 6.30111C18.5502 7.17662 18.1814 8.01628 17.525 8.63535L16.5 9.601"
-      stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="close">
-    <path d="M19 5L5 19M5 5L9.5 9.5M12 12L19 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="close">
+    <path d="M19 5L5 19M5 5L9.5 9.5M12 12L19 19" stroke="white" stroke-width="1.5" stroke-linecap="round"
       stroke-linejoin="round"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="lock">
-    <path d="M8 11V7C8 5.66667 8.8 3 12 3C15.2 3 16 5.66667 16 7V11M8 11H5V21H12M8 11H16M16 11H19V21H17"
-      stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="lock">
+    <path d="M8 11V7C8 5.66667 8.8 3 12 3C15.2 3 16 5.66667 16 7V11M8 11H5V21H12M8 11H16M16 11H19V21H17" stroke="white"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
-
-
-  export.module =
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu">
-    <path d="M4 17H8M12 17H20M4 12H20M4 7H12M16 7H20" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu">
+    <path d="M4 17H8M12 17H20M4 12H20M4 7H12M16 7H20" stroke="white" stroke-width="1.5" stroke-linecap="round"
       stroke-linejoin="round"></path>
   </symbol>
 
-
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="unlock">
-    <path d="M8 11V7C8 5.66667 8.8 3 12 3C13.9103 3 14.9653 3.95032 15.5054 5M8 11H5V21H12M8 11H19V21H17"
-      stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="unlock">
+    <path d="M8 11V7C8 5.66667 8.8 3 12 3C13.9103 3 14.9653 3.95032 15.5054 5M8 11H5V21H12M8 11H19V21H17" stroke="white"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="virus">
+  <symbol fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="virus">
     <path
       d="M7.61314 4.40179L7.24994 3.77271M5.93783 8.5L3.77277 7.25M3 12H2.5M5.93777 15.5L3.77271 16.75M7.66986 19.4999L7.24994 20.2273M12 21.5V19M12 19C15.866 19 19 15.866 19 12M12 19C8.13401 19 5 15.866 5 12C5 8.13401 8.13401 5 12 5M16.7501 20.2273L15.5001 18.0622M20.2273 16.75L18.0622 15.5M21.5 12H19M19 12C19 8.13401 15.866 5 12 5M20.2273 7.25L19.4999 7.66992M15 15V15.01M16.7501 3.77271L15.5001 5.93777M12 5V2.5M8 11V11.01M11 15C11 15.5523 10.5523 16 10 16C9.44772 16 9 15.5523 9 15C9 14.4477 9.44772 14 10 14M13 12C14.1046 12 15 11.1046 15 10C15 8.89543 14.1046 8 13 8C11.8954 8 11 8.89543 11 10"
-      stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="#bdbdbd" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-6 -7 38 48" id="google">
+    <path
+      d="M22.094 11.25c-2.188-2.344-4-2.719-5.75-2.75h-0.063c-3.938 0-7.656 3.25-7.656 7.75 0 4.719 4.25 7.469 7.625 7.469h0.031c1.875 0 4.156-0.344 6.156-3.219h-7.688v-7.969l16.344 0.063c0.156 0.813 0.438 2.844 0.438 3.906 0 9.031-6.063 15.469-15.406 15.469-8.875 0-16.094-7.063-16.094-15.875s7.219-15.844 16.094-15.844c4.344 0 9 1.719 11.938 5.625zM16.25 14.156v4.813h8.219c-0.375 2.031-2.531 6.094-8.219 6.094-4.969 0-8.969-4.063-8.969-8.906 0-4.875 4.094-8.969 8.969-8.969 2.844 0 4.75 1.25 5.781 2.25l3.938-3.719c-2.5-2.344-5.781-3.75-9.719-3.75-8 0-14.5 6.281-14.5 14.188 0 7.844 6.5 14.156 14.5 14.156 8.438 0 13.906-5.781 13.906-13.813 0-0.906-0.063-1.625-0.188-2.344h-13.719z">
+    </path>
+  </symbol>
+  <symbol fill="#bdbdbd" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-6 -7 38 48" id="linkedin">
+    <path
+      d="M31.181 31.326h-6.501c-0.46 0-0.831-0.372-0.831-0.831v-10.469c0-3.591-1.852-3.591-2.463-3.591-1.644 0-2.343 1.298-2.57 1.858-0.107 0.252-0.157 0.68-0.157 1.279v10.929c0 0.46-0.372 0.831-0.831 0.831h-6.507c-0.22 0-0.435-0.088-0.592-0.246s-0.246-0.372-0.239-0.592c0-0.176 0.088-17.732 0-19.528-0.013-0.227 0.069-0.447 0.227-0.611s0.372-0.258 0.605-0.258h6.507c0.46 0 0.831 0.372 0.831 0.831v0.491c1.096-0.976 2.677-1.783 5.033-1.783 5.209 0 8.321 3.603 8.321 9.638v11.219c0 0.46-0.372 0.831-0.831 0.831h0zM25.512 29.663l4.844-0v-10.387c0-5.071-2.425-7.975-6.658-7.975-2.828 0-4.202 1.411-5.065 2.702-0.101 0.34-0.422 0.592-0.8 0.592h-0.044c-0.302 0-0.58-0.164-0.724-0.428-0.113-0.208-0.139-0.447-0.063-0.668v-1.745h-4.832c0.044 3.471 0 14.702-0.013 17.902h4.838v-10.091c0-0.838 0.088-1.442 0.277-1.902 0.731-1.808 2.268-2.898 4.107-2.898 2.62 0 4.126 1.915 4.126 5.254v9.644h0.006zM7.723 31.326h-6.507c-0.46 0-0.831-0.372-0.831-0.831v-19.565c0-0.46 0.372-0.831 0.831-0.831h6.507c0.46 0 0.831 0.372 0.831 0.831v19.565c0 0.46-0.372 0.831-0.831 0.831zM2.047 29.663h4.844v-17.902h-4.844v17.902zM4.472 9.090l-0.044-0c-2.564 0-4.428-1.776-4.428-4.22 0-2.438 1.896-4.214 4.517-4.214 2.576 0 4.416 1.726 4.466 4.195 0 2.463-1.896 4.239-4.51 4.239zM4.516 2.324c-1.707 0-2.854 1.027-2.854 2.551 0 1.499 1.134 2.551 2.765 2.551h0.044c1.701 0 2.847-1.027 2.847-2.551-0.032-1.543-1.134-2.551-2.803-2.551z">
+    </path>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="-4.5 -3 25 25" id="github">
+    <title>github [#142]</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="white" stroke-width="0.5" fill="none" fill-rule="evenodd">
+      <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+        <g id="icons" transform="translate(56.000000, 160.000000)">
+          <path
+            d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+            id="github-[#142]"></path>
+        </g>
+      </g>
+    </g>
   </symbol>
 </svg>
