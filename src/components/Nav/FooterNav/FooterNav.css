@@ -1,11 +1,11 @@
 .nav--footer {
     display: flex;
-    background: black;
+    background: var(--color-primary);
     position: relative;
     padding: 0.5rem 1rem 0.5rem 2rem;
     justify-content: space-between;
     align-items: center;
-    color: #bdbdbd;
+    color: var(--color-secondary);
 
     .logo {
         font-size: 3rem;

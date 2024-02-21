@@ -6,7 +6,7 @@ form {
 
 label {
     display: block;
-    color: #fff;
+    color: var(--color-primary);
 }
 
 textarea {
@@ -33,7 +33,7 @@ textarea[type='text']:focus {
 
 button {
     font-size: 1.6rem;
-    background: #000;
+    background: var(--color-primary);
     color: #fff;
     border-radius: 8px;
     padding: 0.7rem 1rem;
