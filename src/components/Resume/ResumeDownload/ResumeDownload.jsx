@@ -6,7 +6,7 @@ export function ResumeDownload() {
     <section className="resume-download">
       <Download
         className="resume-download"
-        href="/public/files/resume-joe-maalouf.pdf"
+        href="../../../../public/files/resume-joe-maalouf.pdf"
         fileName="resume-joe-maalouf.pdf"
         displayName="Download Resume PDF"
         type="application/x-pdf"
