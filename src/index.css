@@ -5,12 +5,9 @@
 }
 
 :root {
-  --color-primary: #1A1A1F; 
-  --color-secondary: #F2F0ED;
-  --color-accent: #2BA4A0;
-
-  --color-headings: #F2F0ED;
-  --color-body: #1A1A1F;
+  --color-primary: #130F26; 
+  --color-secondary: #DDF4F1;
+  --color-accent: #cf4f00;
 }
 
 /* Typography & Scrollbar */
@@ -26,7 +23,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   line-height: 1.2;
-  background-color: #36768c;
+  background-color: var(--color-accent);
 }
 
 h1 {

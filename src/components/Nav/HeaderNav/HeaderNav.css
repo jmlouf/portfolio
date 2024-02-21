@@ -1,19 +1,18 @@
 /* Highlights active navlink. */
 .active {
-    color: white;
-    background-color: black;
+    background-color: var(--color-accent);
 }
 
 .nav--header {
-    background: #36768c;
-    margin: 0 2.5rem 0 1rem;
+    background: var(--color-primary);
+    width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .logo {
-        color: #fff;
+        color: var(--color-accent);
         font-size: 3rem;
         font-weight: bold;
         text-decoration: none;
@@ -23,8 +22,8 @@
         /* Only visible with media query. */
         display: none;
         position: absolute;
-        top: 3.6rem;
-        right: 4rem;
+        top: 2.9rem;
+        right: 2.6rem;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -42,9 +41,9 @@
     }
 
     ul li a {
+        color: var(--color-secondary);
         display: block;
         text-decoration: none;
-        color: white;
         margin-left: 3rem;
         padding: 1.2rem;
         /* Noticeable when hovering over item. */
@@ -53,15 +52,14 @@
 
     /* "not" pseudo-selector applies if element does not have ".active" class. */
     ul li a:not(.active):hover {
-        color: black;
-        background: #fff;
+        color: var(--color-accent);
     }
+
 
     /* Remove default button style for menu. */
     button {
         background: none;
         border-radius: 15px;
-        color: inherit;
         border: none;
         font: inherit;
         cursor: pointer;
@@ -84,7 +82,7 @@
         ul {
             display: none;
             flex-direction: column;
-            width: 100%;
+            width: 97%;
             margin: 2rem 0 1rem 0;
         }
 

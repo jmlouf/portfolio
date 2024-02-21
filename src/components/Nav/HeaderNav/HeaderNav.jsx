@@ -19,7 +19,7 @@ export function HeaderNav() {
         <p>Maalouf</p>
       </h1>
 
-      <button className="icon menu" onClick={handleClick}>
+      <button className="menu" onClick={handleClick}>
         <Icon id="menu" />
       </button>
 
