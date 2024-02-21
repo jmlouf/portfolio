@@ -31,7 +31,7 @@ Key features:
 
 ## Deployment Link
 
-[QuillCache Deployment Link](https://fast-inlet-34483-835bf7528967.herokuapp.com/)
+[Portfolio Deployment Link on Netlify](https://jmlouf-portfolio.netlify.app/about)
 
 ## Credits
 
